@@ -84,7 +84,7 @@ export class AppComponent implements OnInit {
     //this.heroService.getHeroes().then(heroes => this.heroes = heroes);
 
     Promise.resolve().then(() => {
-      return this.heroService.getHeroes();
+      return this.heroService.getHeroesSlowly();
     }).then((heroes) => {
       this.heroes = heroes;
     });
