@@ -1,17 +1,30 @@
-﻿import { Component } from '@angular/core';
+import { Component }       from '@angular/core';
+import { HeroService }     from './hero.service';
 import { ROUTER_DIRECTIVES } from '@angular/router';
+import { HeroesComponent } from './heroes.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeroDetailComponent } from './hero-detail.component';
+import './rxjs-extensions';
 
-import { TasklistComponent } from './tasklist.component';
-import { Task1Component } from './task1.component';
-import { Task2Component } from './task2.component';
-
-import '../../public/css/styles.css';
 
 @Component({
   selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  template: `
+  <h1>{{title}}</h1>
+  <nav>
+    <a [routerLink]="['/dashboard']" routerLinkActive="active">Dashboard</a>
+    <a [routerLink]="['/heroes']" routerLinkActive="active">Heroes</a>
+  </nav>
+  <router-outlet></router-outlet>
+`,
+  styleUrls: ['app.component.css'],
   directives: [ROUTER_DIRECTIVES],
-  precompile: [TasklistComponent, Task1Component, Task2Component]
+  providers: [
+    HeroService
+  ],
+  precompile: [DashboardComponent, HeroesComponent, HeroDetailComponent]
+
 })
-export class AppComponent { }
+export class AppComponent {
+  title = 'Tour of Heroes';
+}
