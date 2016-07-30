@@ -6,3 +6,5 @@ quickstart
 
 https://angular.io/docs/ts/latest/quickstart.html
 
+https://angular.io/docs/ts/latest/guide/forms.html
+
