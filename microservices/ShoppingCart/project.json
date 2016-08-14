@@ -13,7 +13,8 @@
     "Microsoft.Extensions.Configuration.Json": "1.0.0",
     "Microsoft.Extensions.Configuration.CommandLine": "1.0.0",
     "Microsoft.AspNetCore.Owin": "1.0.0-rc2-final",
-    "Nancy": "2.0.0-barneyrubble"
+    "Nancy": "2.0.0-barneyrubble",
+    "Polly": "4.2.1"
   },
 
   "tools": {
