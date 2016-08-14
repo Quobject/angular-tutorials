@@ -22,7 +22,7 @@ namespace Hellomicroservices
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddConsole();
+            //loggerFactory.AddConsole();
 
             if (env.IsDevelopment())
             {
@@ -30,7 +30,14 @@ namespace Hellomicroservices
             }
 
             app.UseOwin(buildFunc =>
-                buildFunc.UseNancy()
+            {
+                buildFunc(next => env2 => {
+                    System.Console.WriteLine("got request");
+                    return next(env2);
+                });
+
+                buildFunc.UseNancy();
+            }
             );
 
             //app.Run(async (context) =>
