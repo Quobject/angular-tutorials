@@ -1,0 +1,32 @@
+
+> angular-quickstart@1.0.0 test C:\Development\quobject.visualstudio.com\angular-tutorials\quickstart\github
+> tsc && concurrently "tsc -w" "karma start karma.conf.js"
+
+[1] [33m21 09 2016 13:34:17.128:WARN [watcher]: [39mPattern "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/testing/**/*.js" does not match any file.
+[1] [33m21 09 2016 13:34:17.136:WARN [watcher]: [39mPattern "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/app/**/*.html" does not match any file.
+[1] [33m21 09 2016 13:34:17.140:WARN [watcher]: [39mPattern "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/app/**/*.css" does not match any file.
+[1] [33m21 09 2016 13:34:17.147:WARN [watcher]: [39mPattern "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/testing/**/*.ts" does not match any file.
+[1] [33m21 09 2016 13:34:17.147:WARN [watcher]: [39mPattern "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/testing/**/*.js.map" does not match any file.
+[1] [33m21 09 2016 13:34:17.572:WARN [karma]: [39mNo captured browser, open http://localhost:9876/
+[1] [32m21 09 2016 13:34:17.605:INFO [karma]: [39mKarma v1.3.0 server started at http://localhost:9876/
+[1] [32m21 09 2016 13:34:17.606:INFO [launcher]: [39mLaunching browser Chrome with unlimited concurrency
+[1] [32m21 09 2016 13:34:17.648:INFO [launcher]: [39mStarting browser Chrome
+[1] [32m21 09 2016 13:34:18.686:INFO [Chrome 53.0.2785 (Windows 10 0.0.0)]: [39mConnected on socket /#pd0iSEG5-Df5Hc1DAAAA with id 48411729
+[1] Chrome 53.0.2785 (Windows 10 0.0.0): Executed 0 of 4 SUCCESS (0 secs / 0 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 1 of 4 SUCCESS (0 secs / 0.003 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 2 of 4 SUCCESS (0 secs / 0.004 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 3 of 4 SUCCESS (0 secs / 0.115 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 4 of 4 SUCCESS (0 secs / 0.167 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 4 of 4 SUCCESS (0.19 secs / 0.167 secs)
+[1] [32m21 09 2016 13:34:19.919:INFO [watcher]: [39mChanged file "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/app/1st.spec.js".
+[1] [32m21 09 2016 13:34:19.980:INFO [watcher]: [39mChanged file "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/app/app.component.js".
+[0] 12:34:19 PM - Compilation complete. Watching for file changes.
+[1] [32m21 09 2016 13:34:19.999:INFO [watcher]: [39mChanged file "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/app/app.component.spec.js".
+[1] [32m21 09 2016 13:34:20.014:INFO [watcher]: [39mChanged file "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/app/app.module.js".
+[1] [32m21 09 2016 13:34:20.030:INFO [watcher]: [39mChanged file "C:/Development/quobject.visualstudio.com/angular-tutorials/quickstart/github/app/main.js".
+[1] Chrome 53.0.2785 (Windows 10 0.0.0): Executed 0 of 4 SUCCESS (0 secs / 0 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 1 of 4 SUCCESS (0 secs / 0.002 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 2 of 4 SUCCESS (0 secs / 0.003 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 3 of 4 SUCCESS (0 secs / 0.071 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 4 of 4 SUCCESS (0 secs / 0.096 secs)
+[1] [1A[2KChrome 53.0.2785 (Windows 10 0.0.0): Executed 4 of 4 SUCCESS (0.109 secs / 0.096 secs)
